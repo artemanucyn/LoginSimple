@@ -1,25 +1,12 @@
 import React from 'react';
 
+import { LoginFormContainer } from '../../Containers';
+
 const Login = () => {
     return (
         <>
-            <form onSubmit={onSubmit}>
-                <input 
-                    name="email" 
-                    type="email" 
-                    placeholder="Work Email" 
-                />
-                <input 
-                    name="password" 
-                    type="password" 
-                    placeholder="Password" 
-                />
-                <input 
-                    name="submit"
-                    type="submit"
-                    value="Log in to Qencode"
-                />
-            </form>
+            <div className="login-title">Log in to your account</div>
+            <LoginFormContainer />
         </>
     )
 }

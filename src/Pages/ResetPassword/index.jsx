@@ -1,24 +1,13 @@
 import React from 'react';
 
+import { PasswordResetFormContainer } from '../../Containers';
+
 const PasswordReset = () => {
     return (
-    <form>
-        <input 
-            name="password" 
-            type="password" 
-            placeholder="Password" 
-        />
-        <input 
-            name="confirm-password" 
-            type="password" 
-            placeholder="Password" 
-        />
-        <input 
-            name="submit"
-            type="submit"
-            value="Reset Password"
-        />
-    </form>
+        <>
+            <div className="login-title">Forgot Password?</div>
+            <PasswordResetFormContainer />
+        </>
     )
 }
 

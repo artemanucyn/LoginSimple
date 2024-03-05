@@ -36,3 +36,38 @@
     transform: rotate(360deg);
   }
 }
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.flex-row-center {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-row-stretch {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.login-title {
+  font-size: 30px;
+  line-height: 38.73px;
+  font-weight: 700;
+  color: #1A1919;
+  margin-bottom: 40px;
+}
+
+@media only screen and (max-width: 450px) {
+  .login-title {
+    font-size: 20px;
+  }
+}

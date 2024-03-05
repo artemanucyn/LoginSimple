@@ -1,24 +1,13 @@
-import React from 'react';
+import React from "react";
+
+import { ForgotPasswordFormContainer } from "../../Containers";
 
 const PasswordForgot = () => {
     return (
-    <form>
-        <input 
-            name="email" 
-            type="email" 
-            placeholder="Work Email" 
-        />
-        <input 
-            name="submit"
-            type="submit"
-            value="Send"
-        />
-        <input 
-            name="submit"
-            type="submit"
-            value="Cancel"
-        />
-    </form>
+        <>
+            <div className="login-title">Forgot Password?</div>
+            <ForgotPasswordFormContainer />
+        </>
     )
 }
 
