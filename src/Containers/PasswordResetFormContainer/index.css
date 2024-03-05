@@ -1,24 +1,24 @@
 .password-reset-form {
-    width: 100%;
-    align-items: flex-end !important;
+  width: 100%;
+  align-items: flex-end !important;
 }
 
 .password-reset-button {
-    width: 100%;
-    height: 48px;
-    border-radius: 8px;
-    color: white;
-    background-color: #316FEA;
-    font-size: 16px;
-    line-height: 21px;
-    font-weight: 500;
-    border: none;
+  width: 100%;
+  height: 48px;
+  border-radius: 8px;
+  color: white;
+  background-color: #316fea;
+  font-size: 16px;
+  line-height: 21px;
+  font-weight: 500;
+  border: none;
 }
 
 .password-reset-button:hover {
-    background-color: #538Ffc;
+  background-color: #538ffc;
 }
 
 .input-password {
-    margin: 25px 0 15px 0;
+  margin: 25px 0 15px 0;
 }

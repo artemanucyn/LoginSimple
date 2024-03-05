@@ -1,2 +1,2 @@
-export * as ValidateService from './validator.service';
-export * as AuthApiService from './auth.service';
+export * as ValidateService from './validator.service'
+export * as AuthApiService from './auth.service'

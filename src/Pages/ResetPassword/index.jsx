@@ -1,14 +1,14 @@
-import React from 'react';
+import React from 'react'
 
-import { PasswordResetFormContainer } from '../../Containers';
+import { PasswordResetFormContainer } from '../../Containers'
 
 const PasswordReset = () => {
-    return (
-        <>
-            <div className="login-title">Forgot Password?</div>
-            <PasswordResetFormContainer />
-        </>
-    )
+  return (
+    <>
+      <div className="login-title">Forgot Password?</div>
+      <PasswordResetFormContainer />
+    </>
+  )
 }
 
-export default PasswordReset;
+export default PasswordReset
