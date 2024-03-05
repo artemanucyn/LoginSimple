@@ -1,0 +1,24 @@
+.ibutton {
+  width: 192px;
+  height: 100%;
+  background-color: white;
+  border: 1.2px solid #d3d8dc;
+  padding: 0px, 20px, 0px, 20px;
+  box-sizing: border-box;
+  border-radius: 6px;
+  gap: 10px;
+}
+
+.ibutton:hover {
+  background-color: #e3e8ec;
+}
+
+.ibutton > .button-icon {
+  height: 18px;
+}
+
+@media only screen and (max-width: 450px) {
+  .ibutton {
+    width: 100%;
+  }
+}
